@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Username
+name: Aidan O'Gorman
 
 # Short bio or description (displayed in the header)
 description: Programmer From Somewhere On Earth
@@ -16,20 +16,37 @@ description: Programmer From Somewhere On Earth
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: agarwal.akshay.akshay8@gmail.com
+  email: aidan.h.ogorman@gmail.com
   facebook:
   flickr:
-  github: AkshayAgarwal007
-  instagram:
-  linkedin: akshay-agarwal-782018a4
+  github: 
+  instagram: aidan-namrogo
+  linkedin: aidan-ogorman
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: 
+  twitter: aidan-namrogo
   stackoverflow: # your stackoverflow profile, e.g. "users/3807565/akshay"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
-
+#layouts
+defaults:
+  -
+    scope:
+      path: "work"
+      type: "pages"
+    values:
+      layout: "default1"
+      author: "Mr. Hyde"
+      category: "project"
+  -
+    scope:
+      path: ""
+      type: ""
+    values:
+      layout: "default1"
+      author: "Mr. Hyde"
+      category: "project"
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus:
@@ -39,7 +56,7 @@ google_analytics:
 
 # Your website URL (e.g. http://akshayagarwal007.github.io)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: http://aidanogorman.me
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
