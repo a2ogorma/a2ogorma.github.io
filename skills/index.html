@@ -1,0 +1,23 @@
+---
+layout: directory
+title: Aidan O'Gorman - Selected Skills
+dirname: Skills
+tagtype: skill
+
+---
+{% for skill in site.skills %}
+	<div class="blockwrap col-md-4 col-sm-6">
+		<a class="blocklink" href="{{ site.baseurl }}{{ skill.url }}">
+			<div class="skillblock">
+				<div class="row">
+					<div>
+						<h3 class="text-center">{{ skill.title }}</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="imagebox col-md-12" style="background-image:url({{ skill.imgurl }})"></div>
+				</div>
+			</div>
+		</a>
+	</div>
+{% endfor %}

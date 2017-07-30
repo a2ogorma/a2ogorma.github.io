@@ -1,0 +1,21 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ page.title }}</title>
+</head>
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.css">
+<!-- Styles -->	
+<body>
+	{% include header.html %}
+	<div class="row col-md-12 content-wrap">
+		<div class="title row col-md-12">
+			<h1>{{ page.dirname }}</h1>
+		</div>
+		{{ content }}
+	</div>
+</body>
+</html>
