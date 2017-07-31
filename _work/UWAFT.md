@@ -3,7 +3,8 @@ layout: works
 title: UW Alternative Fuels Team
 type: work
 author: Aidan O'Gorman
-desc: Researching, designing, and implementing advanced vehicle technologies for a hybrid electric vehicle.
+desc: 
+- Researching, designing, and implementing advanced vehicle technologies for a hybrid electric vehicle. 
 optionalurl: http://ecocar3.org/waterloo/about-us/
 imgurl: /uwaftimg.jpg
 date1: October 2016
@@ -22,7 +23,7 @@ tags:
 * **Developed optimization strategies by modeling** various vehicle components using a Hardware-In-the-Loop (HIL) real-time processing system.
 * **Reduced energy usage** of individual component systems through efficiency-based control development.
 * Created a **method to extract key performance metrics** from a custom vehicle simulation system.
-* Member of the Controls, Systems Modeling and Simulations team, HIL Subteam Lead.
+* Member of the Controls, Systems Modeling and Simulations team.
 
 ## Tools used
 -----
