@@ -198,6 +198,7 @@ h3 {
 .whitetext {
 	color: white;
 }
+
 @media (max-width: 1000px) {
 .footer {
 	display: none;
@@ -217,6 +218,11 @@ h3 {
 	font-size: 15px;
 	display: none;
 }
+}
+@media (max-width: 760px) {
+	.navbar-right {
+		padding-right: 0%;
+	}
 }
 @media (max-width: 1200px) {
 .col-md-1 {
