@@ -30,6 +30,8 @@ ul > li {
 }
 .content-wrap {
 	padding: 0% 10%;
+	margin-right: 0;
+	margin-left: 0;
 }
 .post-content-wrap {
 	padding: 0% 25%;
@@ -217,6 +219,9 @@ h3 {
 	padding-bottom: 2%;
 	font-size: 15px;
 	display: none;
+}
+.pull-left {
+	padding-bottom: 5%;
 }
 }
 @media (max-width: 760px) {

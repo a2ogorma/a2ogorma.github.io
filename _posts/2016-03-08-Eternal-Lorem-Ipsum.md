@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The new external text document, ahhh
 imgurl: /uwaftimg.jpg
 tags: 
