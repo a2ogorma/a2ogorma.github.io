@@ -1,0 +1,161 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+}
+.splash {
+  height: 100%;
+  padding-top: 20%;
+  padding-bottom: 6%;
+}
+.splashcontent {
+  padding: 0 10%;
+  padding-bottom: 60px;
+}
+.infocontent {
+  padding-top: 108px;
+  padding-bottom: 108px;
+  min-height: 421px;
+  float: none;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.navbar-right {
+  float: right;
+}
+.navbar {
+  padding: 35px 50px;
+  z-index: 200;
+}
+.content {
+  top: 0px;
+  position: relative;
+}
+.mailinglist {
+  padding-top: 93px;
+}
+.text-white {
+  color: white;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+.background > img {
+  margin-top: -10%;
+  filter: brightness(90%) contrast(55%);
+}
+.inputbox {
+  background-color: rgba(255,255,255,0.36);
+  width: 100%;
+  border-style: none;
+  padding: 9px
+}
+
+/* for input field color */
+*::-webkit-input-placeholder {
+    color: white;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: white;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: white;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+}
+.rectangle-2 {
+  height: 51px;
+  width: 134px;
+  border: 1px solid #84C340;
+  padding: 15px 2px;
+  margin-top: 0;
+  color: #84C340;
+  background: none;
+}
+.rectangle-7 {
+  height: 38px;
+  width: 137px;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  padding: 9px;
+  background: none;
+}
+.rectangle-8 {
+  height: 38px;
+  width: 312px;
+  border: 1px solid #4A4A4A;
+  color: #4A4A4A;
+  padding: 7px;
+  background: none;
+}
+.rectangle-2:hover {
+  background: #84C340;
+  color: #FFFFFF;
+}
+.rectangle-7:hover {
+  background: #84C340;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+.rectangle-8:hover {
+  background: #4A4A4A;
+  color: #84C340;
+  border: 1px solid #84C340;
+}
+h1 {
+  font-size: 4.55em;
+  padding-bottom: 20px;
+}
+.subheading {
+  font-size: 1.3em;
+  padding-bottom: 40px;
+}
+.info {
+  margin: 0 0;
+}
+.menubtn:hover {
+  color: #84C340;
+}
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: #84C340;
+}
+.splashwrap {
+  height: 100%;
+}
+@media (max-width: 1100px) {
+  .background > img {
+    margin-top: 0;
+  }
+}
+@media (max-width: 900px) {
+  .background > img {
+    transform: scale(1.75);
+  }
+  .background {
+    height: 750px;
+  }
+}
+@media (min-width: 900px) {
+  .splash {
+    width: 900px;
+  }
+  .infocontent {
+    width: 861px;
+  }
+  .navbar {
+    padding: 35px 100px;
+  }
+}
