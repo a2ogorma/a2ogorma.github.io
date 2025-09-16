@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The system come to the text document, ahhh
+title: A guide to bootstrapping lab automation
 imgurl: /uwaftimg.jpg
 tags: 
 - uwaft
