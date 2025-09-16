@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The Eternal Lorem Ipsum Placeholder Text Here
-author: Author Name
+title: Defending Soft Law for Climate Policy
+author: Aidan O'Gorman
 tags: 
 - uwaft
 - dogs
