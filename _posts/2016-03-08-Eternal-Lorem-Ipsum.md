@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The new external text document, ahhh
+title: Operations for Social Good
 imgurl: /uwaftimg.jpg
 tags: 
 - uwaft
