@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A guide to bootstrapping lab automation
+title: A Guide to Bootstrapping Lab Automation
 imgurl: /uwaftimg.jpg
 tags: 
 - uwaft
